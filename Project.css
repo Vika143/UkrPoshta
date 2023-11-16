@@ -1,11 +1,11 @@
-.header {
+.header{
     background-color: white;
     display: flex;
     width: 100vw;
     padding: 25px 1119px 15px 135px;
     align-items: center;
 }
-img {
+img{
     justify-content: flex-start;
     width: 186px;
     height: 50px;
@@ -13,7 +13,7 @@ img {
     flex-shrink: 0;
     margin-top: 25px;
 }
-.menu {
+.menu{
     background-color: white;
     display: flex;
     height: 60px;
@@ -22,7 +22,7 @@ img {
     gap: 30px;
     flex-shrink: 0;
 }
-a {
+a{
     color: #99A2AA;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
@@ -32,7 +32,7 @@ a {
     text-decoration: none;
     margin-top: 15px;
 }
-.yellow {
+.yellow{
     background-color: #FEC524;
     height: 450px;
     display: flex;
@@ -41,7 +41,7 @@ a {
     z-index: 1;
     flex-grow: 1;
 }
-h1 {
+h1{
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 44px;
@@ -50,7 +50,7 @@ h1 {
     line-height: 60px;
     max-width: 30px;
 }
-p {
+p{
     color: #0E2F4B;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -59,7 +59,7 @@ p {
     line-height: 30px;
     margin-top: 34px;
 }
-form {
+form{
     display: flex;
     align-items: center;
     flex-shrink: 0;
@@ -69,7 +69,7 @@ form {
     margin-top: 92px;
     max-width: 570px;
 }
-input {
+input{
     display: flex;
     align-items: center;
     padding: 0 230px 0 30px;
@@ -78,10 +78,10 @@ input {
     border: none;
     border-radius: 10px 0 0 10px;
 }
-.slider {
+.slider{
     margin-top: 54px;
 }
-button {
+button{
     width: 123px;
     height: 72px;
     flex-shrink: 0;
@@ -90,7 +90,7 @@ button {
     border-radius: 0 10px 10px 0;
     cursor: pointer;
 }
-.action-items {
+.action-items{
     max-width: 270px;
     width: 270px;
     height: 80px;
@@ -110,7 +110,7 @@ button {
     line-height: 20px;
 
 }
-.action-cards {
+.action-cards{
     display: flex;
     gap: 30px;
     position: absolute;
@@ -118,7 +118,7 @@ button {
     top: 720px;
     margin-left: 120px;
 }
-body {
+body{
     position: relative;
     overflow-x: hidden;
     width: 100vw;
@@ -126,12 +126,12 @@ body {
     flex-direction: column;
     margin: 0;
 }
-.action-img {
+.action-img{
     width: 30px;
     height: 30px;
     margin: 0;
 }
-.services {
+.services{
     display: flex;
     background-color: #F8F8F8;
     width: 100%;
@@ -142,7 +142,7 @@ body {
     padding: 0 0 0 135px;
     position: relative;
 }
-.column {
+.column{
     flex-grow: 1;
     height: 630px;
     background-color: #F8F8F8;
@@ -151,7 +151,7 @@ body {
     flex-direction: column;
     gap: 36px;
 }
-#column-title {
+#column-title{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,7 +163,7 @@ body {
     line-height: 60px;
     margin-bottom: 36px;
 }
-#text-column {
+#text-column{
     display: flex;
     width: 368px;
     height: 22px;
@@ -177,11 +177,11 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
-#text-column span {
+#text-column span{
     margin-bottom: 18px;
     display: flex;
 }
-.square1, .square2, .square3, .square4, .square5, .square6 {
+.square1, .square2, .square3, .square4, .square5, .square6{
     display: flex;
     width: 370px;
     height: 180px;
@@ -189,13 +189,13 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.column-square, .column-square2 {
+.column-square, .column-square2{
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
-.title {
+.title{
     display: flex;
     width: 149px;
     flex-direction: column;
@@ -208,7 +208,7 @@ body {
     line-height: 32px;
     text-align: left;
 }
-.description {
+.description{
     display: flex;
     text-align: left;
     color: #0E2F4B;
@@ -220,7 +220,7 @@ body {
     margin-left: -50px;
 
 }
-.dark-blue {
+.dark-blue{
     display: flex;
     overflow: hidden;
     width: 100%;
@@ -234,7 +234,7 @@ body {
     flex-grow: 1;
     position: relative;
 }
-.dark-blue p {
+.dark-blue p{
     display: flex;
     width: 592px;
     height: 57px;
@@ -248,7 +248,7 @@ body {
     line-height: 60px;
     padding-top: 151px;
 }
-.dark-blue span {
+.dark-blue span{
     display: flex;
     width: 355px;
     height: 22px;
@@ -262,7 +262,7 @@ body {
     line-height: 30px;
     padding-top: 36px;
 }
-.dark-blue button {
+.dark-blue button{
     display: flex;
     width: 305px;
     height: 80px;
@@ -282,7 +282,7 @@ body {
     border:none;
 
 }
-.finance {
+.finance{
     display: flex;
     width: 100%;
     height: 880px;
@@ -295,7 +295,7 @@ body {
     position: relative;
     padding: 0 0 0 135px;
 }
-.beneficence {
+.beneficence{
     width: 90%;
     height: 220px;
     display: flex;
@@ -307,7 +307,7 @@ body {
     top: -100px;
     margin-left: -135px;
 }
-.beneficence h2 {
+.beneficence h2{
     display: flex;
     width: 977px;
     flex-direction: column;
@@ -320,7 +320,7 @@ body {
     line-height: 32px;
     margin: 52px 0 0 75px;
 }
-.beneficence p {
+.beneficence p{
     display: flex;
     width: 980px;
     flex-direction: column;
@@ -333,7 +333,7 @@ body {
     line-height: 30px;
     margin: 10px 0 0 75px;
 }
-.beneficence span {
+.beneficence span{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -346,7 +346,7 @@ body {
     margin-left: 75px;
     margin-bottom: 52px;
 }
-.main {
+.main{
     display: flex;
     width: 100%;
     height: 57px;
@@ -359,13 +359,13 @@ body {
     font-weight: 700;
     line-height: 60px;
 }
-.transfers {
+.transfers{
     display: flex;
     width: 270px;
     height: 270px;
     flex-direction: column;
 }
-.transfers p {
+.transfers p{
     display: flex;
     width: 99px;
     flex-direction: column;
@@ -378,7 +378,7 @@ body {
     line-height: 32px;
     margin: 64px 0 0 30px;
 }
-.transfers span {
+.transfers span{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -391,7 +391,7 @@ body {
     padding-top: 13px;
     margin: 0 0 0 30px;
 }
-.additional-services {
+.additional-services{
     display: flex;
     width: 100%;
 }
@@ -399,7 +399,7 @@ body {
     display: flex;
     width: 100%;
     height: 635px;
-    padding: 134.5px 120px 135.5px 120px;
+    padding: 134.5px 0 0 120px;
     justify-content: flex-start;
     align-items: flex-start;
     background: #0E2F4B;
@@ -461,6 +461,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
+    border: none;
 }
 .item{
     display: flex;
